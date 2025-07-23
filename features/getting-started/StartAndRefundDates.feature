@@ -8,16 +8,17 @@ Feature: Program start dates and Refund dates
 
     
     #TODO: Create scenarios that cover all the acceptance criteria
-#* must cover AC1
+
 
     Background:
         Given user is on the enrollment page
 
-    #* must cover AC1
+    @sep11-1
     Scenario: Verify that the program start date and refund date are displayed 
         Then the program start date is displayed
         Then the program refund date is displayed
 
+   @sep11-2
     Scenario: Verify that the program start date and refund date are correct
         Then the program start date for the program is correct
         Then the program refund date for the program is correct
